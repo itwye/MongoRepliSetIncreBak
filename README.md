@@ -156,7 +156,6 @@ itwyetest:PRIMARY>
 2018-04-04T15:53:58.843+0800    no indexes to restore
 2018-04-04T15:53:58.843+0800    finished restoring mydb.mycol (20001 documents)
 2018-04-04T15:53:58.844+0800    done
-mkdir: cannot create directory ‘dump’: File exists
 ----- 开始还原各个增量备份 -----
 =以下增量备份按顺序还原!=
 ['1.oplog.bson', '2.oplog.bson', '3.oplog.bson']
