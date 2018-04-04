@@ -147,7 +147,6 @@ itwyetest:PRIMARY>
 [root@secondary scripts]# ./mongoIncreRestore.py /tmp/mongodb_backup/
 备份文件存在，满足条件，准备开始还原!
 ----- 开始还原全备份 ------
-shi : /tmp/mongodb_backup//fulldump/
 2018-04-04T15:53:58.419+0800    preparing collections to restore from
 2018-04-04T15:53:58.420+0800    reading metadata for mydb.mycol from /tmp/mongodb_backup/fulldump/mydb/mycol.metadata.json
 2018-04-04T15:53:58.434+0800    restoring mydb.mycol from /tmp/mongodb_backup/fulldump/mydb/mycol.bson

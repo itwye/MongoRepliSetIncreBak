@@ -34,7 +34,6 @@ class mongoRestore(object):
 
         print "----- 开始还原全备份 ------"
 
-        print "shi : %s/"%self.fulldump_dir
         subprocess.call("mongorestore --drop --dir=%s/"%self.fulldump_dir,shell=True)
 
     def mongoIncreRestore(self):
