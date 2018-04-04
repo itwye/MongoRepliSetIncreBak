@@ -51,7 +51,7 @@
 ./writeTestDataToMongo.py single '{"name" : "itwye", "gender" : "male", "age": 18}'  #特征数据便于后期验证
 ```
 
-> ##### (2) 全备份 (也可在写数据时并行进行备份)
+> ##### (2) 全备份
 
 ```
 ./mongoIncreBackup.py  /tmp/mongodb_backup/
