@@ -43,7 +43,7 @@
     
     (2) 还原先前备份的“全备份” (mongorestore  --dir=fulldump/)
     
-    (3) 按顺序还原各个增量备份 (mongorestore  --oplogReplay  --oplogFile=oplog/1.oplog.bson)
+    (3) 按顺序还原各个增量备份 (mongorestore  --oplogReplay  --oplogFile=oplog/$num.oplog.bson)
 
 > #### 测试过程
 
