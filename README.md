@@ -12,7 +12,7 @@
     
     (2) mongorestore需支持"--oplogFile"选项,即需要mongorestore版本 >= 3.4
     
-    (3) 为便于脚本执行, 我将mongod都监听在0.0.0.0上
+    (3) 为便于脚本执行, 我将mongod都监听在0.0.0.0上, 也未加访问控制。
     
     (4) mongodb测试库:mydb,集合:mycol
     
